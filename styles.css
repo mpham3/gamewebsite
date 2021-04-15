@@ -1,0 +1,48 @@
+/* PARALLAX EXAMPLE */
+
+
+
+/* Base styles */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: helvetica, arial, sans-serif;
+	font-weight: normal;
+	color: #e19af5;
+	background: url("img/Background .jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	overflow-x: hidden;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+main {
+	max-width: 40em;
+	margin: 5em auto;
+	padding: 0.5em;
+}
+
+
+
+
+
+/* Paralax */
+
+.parallax-layer-1 {
+	position: absolute;
+	top: 0;
+}
+
+.grass {
+ max-width: 200%;
+}
