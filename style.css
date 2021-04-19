@@ -485,6 +485,34 @@ h2 {
 	border:2px solid #000;
 }
 
+.blaziken__img {
+	position: absolute;
+	bottom: 20px;
+	right: 15%;
+	max-height: 40vw;
+	opacity: 1;
+	transform: translate3d(0,0,0);
+	transition: opacity 0.43s 0.6s, transform 0.4s 0.65s cubic-bezier(0, 0.88, 0.4, 0.93);
+	padding: 1em;
+	background-color: #F9D6BF;
+	box-shadow: 5px 0px 25px #5A5A5A;
+	border:2px solid #000;
+}
+
+.dialga__img {
+	position: absolute;
+	bottom: 20px;
+	right: 15%;
+	max-height: 40vw;
+	opacity: 1;
+	transform: translate3d(0,0,0);
+	transition: opacity 0.43s 0.6s, transform 0.4s 0.65s cubic-bezier(0, 0.88, 0.4, 0.93);
+	padding: 1em;
+	background-color: #95CEFF;
+	box-shadow: 5px 0px 25px #5A5A5A;
+	border:2px solid #000;
+}
+
 /* Animate-START point */
 
 .flex__container.animate--start .flex__content {
@@ -498,6 +526,16 @@ h2 {
 }
 
 .flex__container.animate--start .piplup__img {
+	transform: translate3d(-200px,0,0);
+	opacity: 0;
+}
+
+.flex__container.animate--start .blaziken__img {
+	transform: translate3d(-200px,0,0);
+	opacity: 0;
+}
+
+.flex__container.animate--start .dialga__img {
 	transform: translate3d(-200px,0,0);
 	opacity: 0;
 }
